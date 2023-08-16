@@ -1,0 +1,99 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Aug-2023 05:52:07.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+08-Aug-2023 05:52:07.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+08-Aug-2023 05:52:07.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+08-Aug-2023 05:52:07.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Aug-2023 05:52:07.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.38-59.109.amzn2023.x86_64
+08-Aug-2023 05:52:07.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Aug-2023 05:52:07.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+08-Aug-2023 05:52:07.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+7-LTS
+08-Aug-2023 05:52:07.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Aug-2023 05:52:07.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:52:07.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:52:07.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Aug-2023 05:52:07.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Aug-2023 05:52:07.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Aug-2023 05:52:07.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Aug-2023 05:52:07.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Aug-2023 05:52:07.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/jenkins/workspace/tom/apache-tomcat-9.0.78/conf/logging.properties
+08-Aug-2023 05:52:07.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Aug-2023 05:52:07.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Aug-2023 05:52:07.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Aug-2023 05:52:07.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Aug-2023 05:52:07.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Aug-2023 05:52:07.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:52:07.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:52:07.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/jenkins/workspace/tom/apache-tomcat-9.0.78/temp
+08-Aug-2023 05:52:07.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Aug-2023 05:52:07.977 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:52:08.028 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [728] milliseconds
+08-Aug-2023 05:52:08.076 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Aug-2023 05:52:08.076 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+08-Aug-2023 05:52:08.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/ROOT]
+08-Aug-2023 05:52:08.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/ROOT] has finished in [367] ms
+08-Aug-2023 05:52:08.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/docs]
+08-Aug-2023 05:52:08.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/docs] has finished in [52] ms
+08-Aug-2023 05:52:08.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/examples]
+08-Aug-2023 05:52:08.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/examples] has finished in [320] ms
+08-Aug-2023 05:52:08.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/host-manager]
+08-Aug-2023 05:52:08.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/host-manager] has finished in [37] ms
+08-Aug-2023 05:52:08.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager]
+08-Aug-2023 05:52:08.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager] has finished in [31] ms
+08-Aug-2023 05:52:08.905 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:52:08.919 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [889] milliseconds
+08-Aug-2023 05:56:28.941 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+08-Aug-2023 05:56:28.954 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager]
+08-Aug-2023 05:56:28.974 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager] has finished in [20] ms
+08-Aug-2023 05:59:18.995 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/jenkins/workspace/tom/apache-tomcat-9.0.78/conf/tomcat-users.xml]
+08-Aug-2023 05:59:32.912 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Aug-2023 05:59:32.912 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:59:32.917 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Aug-2023 05:59:32.931 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:59:32.939 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Aug-2023 05:59:48.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.78
+08-Aug-2023 05:59:48.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2023 13:15:43 UTC
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.78.0
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.38-59.109.amzn2023.x86_64
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.8+7-LTS
+08-Aug-2023 05:59:48.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Aug-2023 05:59:48.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:59:48.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:59:48.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Aug-2023 05:59:48.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Aug-2023 05:59:48.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Aug-2023 05:59:48.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Aug-2023 05:59:48.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/jenkins/workspace/tom/apache-tomcat-9.0.78/conf/logging.properties
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/jenkins/workspace/tom/apache-tomcat-9.0.78
+08-Aug-2023 05:59:48.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/jenkins/workspace/tom/apache-tomcat-9.0.78/temp
+08-Aug-2023 05:59:48.836 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Aug-2023 05:59:49.267 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:59:49.311 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [733] milliseconds
+08-Aug-2023 05:59:49.371 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Aug-2023 05:59:49.371 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.78]
+08-Aug-2023 05:59:49.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/ROOT]
+08-Aug-2023 05:59:49.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/ROOT] has finished in [337] ms
+08-Aug-2023 05:59:49.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/docs]
+08-Aug-2023 05:59:49.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/docs] has finished in [22] ms
+08-Aug-2023 05:59:49.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/examples]
+08-Aug-2023 05:59:50.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/examples] has finished in [313] ms
+08-Aug-2023 05:59:50.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/host-manager]
+08-Aug-2023 05:59:50.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/host-manager] has finished in [23] ms
+08-Aug-2023 05:59:50.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager]
+08-Aug-2023 05:59:50.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/jenkins/workspace/tom/apache-tomcat-9.0.78/webapps/manager] has finished in [19] ms
+08-Aug-2023 05:59:50.105 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 05:59:50.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [805] milliseconds
+08-Aug-2023 06:40:00.116 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 06:40:00.123 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Aug-2023 06:40:00.163 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Aug-2023 06:40:00.204 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
